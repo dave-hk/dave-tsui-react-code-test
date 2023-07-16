@@ -1,0 +1,35 @@
+.selectContainer {
+  margin: 2% 2%;
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  list-style-type: none;
+}
+
+.pagination a {
+  color: #8353b7;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #8353b7;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination a:hover {
+  background-color: #8353b7;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.pagination .active {
+  background-color: #8353b7;
+  color: #ffffff;
+}
